@@ -32,24 +32,25 @@ If I were given more time with the dataset I will first try to have a closer loo
  the second thing would be to try optimizing more hyperparameters.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|time|num_stack_levels|excluded_model_types|score|
-|initial|600|3|None|1.39605|
-|add_features|600|3|None|0.54523|
-|hpo|1200|3|NN|0.51992|
+|model       |time |num_stack_levels|excluded_model_types|score  |
+| -----------| ----| -------------- | ------------------ | ----- |
+|initial     |600  |3               |None                |1.39605|
+|add_features|600  |3               |None                |0.54523|
+|hpo         |1200 |3               |NN                  |0.51992|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
+line plot showing the top model score for the three (or more) training runs
 
 ![model_train_score.png](./model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
+line plot showing the top kaggle score for the three (or more) prediction
 
 ![model_test_score.png](./model_test_score.png)
 
 ## Summary
+
 good performance is not only guaranteed by training the model.
 understanding your data and your features and how they correlate is a key component to good performance.
 Hyperparameter tuning can also bring a big win to your prediction if you know how to tune them.
