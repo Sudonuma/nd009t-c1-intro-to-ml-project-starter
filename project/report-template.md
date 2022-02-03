@@ -39,12 +39,13 @@ If I were given more time with the dataset I will first try to have a closer loo
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
+TODO: Replace the image below with your own.
 
 ![model_train_score.png](./model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-
+TODO: Replace the image below with your own.
 
 ![model_test_score.png](./model_test_score.png)
 
@@ -52,4 +53,3 @@ If I were given more time with the dataset I will first try to have a closer loo
 good performance is not only guaranteed by training the model.
 understanding your data and your features and how they correlate is a key component to good performance.
 Hyperparameter tuning can also bring a big win to your prediction if you know how to tune them.
-
